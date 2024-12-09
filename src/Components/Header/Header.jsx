@@ -9,8 +9,10 @@ export const Header = () => {
             </figure>
             <figcaption className={styles.figc}>
                 <h1>Under the moon</h1>
-                <h3>Hairstyles og Frisør</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus id saepe quae eaque, repellendus molestiae beatae consectetur ducimus consequatur velit earum eius? Inventore hic harum ex nesciunt voluptatum unde.</p>
+                <div>
+                    <h3>Hairstyles og Frisør</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus id saepe quae eaque, repellendus molestiae beatae consectetur ducimus consequatur velit earum eius? Inventore hic harum ex nesciunt voluptatum unde.</p>
+                </div>
             </figcaption>
         </header>
     )
