@@ -2,8 +2,8 @@ import styles from './Nav.module.scss';
 
 export const Nav = () => {
     return (
-        <nav>
-            <ul className={styles.Nav}>
+        <nav className={styles.Nav}>
+            <ul className={styles.navItems}>
                 <li><a href="#">Hjem</a></li>
                 <li><a href="#">Koncepter</a></li>
                 <li><a href="#">UTM Loyalty</a></li>
@@ -11,5 +11,5 @@ export const Nav = () => {
                 <li><a href="#">Kontakt</a></li>
             </ul>
         </nav>
-    )
-}
+    );
+};
