@@ -1,11 +1,11 @@
-import './App.css'
+import Nav from './Components/Nav/Nav'
+import './App.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
+      <Nav />
     </>
   )
 }
