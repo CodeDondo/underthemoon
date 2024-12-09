@@ -1,4 +1,5 @@
 import { Nav } from './Components/Nav/Nav'
+import { Header } from './Components/Header/Header'
 import './App.scss'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Header />
     </>
   )
 }

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.Header{
+    position: relative;
+}
+
+.figc{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    color: white;
+}
+
+.figc h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.figc h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.figc p{
+    font-size: 1.5rem;
+    text-align: center;
+}
