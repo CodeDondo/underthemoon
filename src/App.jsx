@@ -1,5 +1,6 @@
 import { Nav } from './Components/Nav/Nav'
 import { Header } from './Components/Header/Header'
+import { SectionOne } from './Components/SectionOne/SectionOne'
 import './App.scss'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Nav />
       <Header />
+      <SectionOne />
     </>
   )
 }
